@@ -27,7 +27,7 @@ public class SansadInfrastructure(HttpClient httpClient, ApiClient apiClient, En
 
     }
 
-    public async Task<List<ConstituencyDto>> GetConstituencies(State state)
+    public async Task<List<string>> GetConstituencies(State state)
     {
         // var endpoint = _endpointResolver.Resolve(_serviceKey, "get-constituencies");
         // try
